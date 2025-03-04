@@ -15,33 +15,6 @@
 ## <br> follow my Whatsapp channel 
 
 <a href='https://whatsapp.com/channel/0029VavpWUvGk1Fkbzz0vz0v' target="_blank"><img alt='joel' src='https://img.shields.io/badge/Whatsapp channel-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
-if params == "Done":
-    try:
-        bot.deleteMessage(chat_id=u, message_id= message.message_id)
-    except:
-        bot.answerCallbackQuery(call.id,'''🥲You Have Clicked Too Much On 😇Done? Click Here''',show_alert=False) #False for alert on top
-
-        raise ReturnCommand ()
-urlh = "https://youtu.be/jnr99lWBTF4"
-hi = f"""<a href="{urlh}">Channel</a>"""
-if params != "Done":
-    Text = f"<b>Subscribe To Our {hi}👇</b>"
-else:
-    Text = f"<b>You Have Not Subscribed Our {hi}👇</b>"
-markup = InlineKeyboardMarkup()
-markup.add(InlineKeyboardButton(
-              text='Subscribe To YT',url='https://youtu.be/jnr99lWBTF4'))
-markup.add(InlineKeyboardButton(
-              text='😇 Done? Click Here', 
-              callback_data='/YouTube Done'))              #add your inline button with InlineKeyboardButton
-markup.add(InlineKeyboardButton(
-              text='😎\nFor Developer\n Click Here', 
-              url=f'tg://user?id=5797764799'))     
-bot.replyText(
-    chat_id = u,
-    text =Text,
-    reply_markup = markup
-,disable_web_page_preview= True)
 
 <a  href="https://github.com/Davemiracle01/ASTA-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Davemiracle01/ASTA-BOT?color=blue&style=flat-square"></a>
 <a href="https://github.com/Davemiracle01/ASTA-BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Davemiracle01/ASTA-BOT?color=blue&style=flat-square"></a>
